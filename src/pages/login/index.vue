@@ -47,6 +47,7 @@ export default {
       bottom: 0;
       svg {
         height: 60px;
+        width: 100%;
       }
       .fill-default {
         fill: #525f7f;
@@ -77,30 +78,31 @@ export default {
 }
 .dragon_expot{
   width: 80%;
-  margin: -10% auto 0;
+  // margin: -10% auto 0;
+  margin: -200px auto 0;
   // background-color: #fff;
   height: auto;
   position: relative;
   z-index: 1;
 }
-@media screen and (min-width: 1200px) {
-  .dragon_expot {
-     margin: -10% auto 0;
-  }
-}
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-  .dragon_expot {
-     margin: -15% auto 0;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .dragon_expot {
-     margin: -20% auto 0;
-  }
-}
-@media screen and (max-width: 767px) {
-  .dragon_expot {
-     margin: -25% auto 0;
-  }
-}
+// @media screen and (min-width: 1200px) {
+//   .dragon_expot {
+//      margin: -10% auto 0;
+//   }
+// }
+// @media screen and (min-width: 992px) and (max-width: 1199px) {
+//   .dragon_expot {
+//      margin: -15% auto 0;
+//   }
+// }
+// @media screen and (min-width: 768px) and (max-width: 991px) {
+//   .dragon_expot {
+//      margin: -20% auto 0;
+//   }
+// }
+// @media screen and (max-width: 767px) {
+//   .dragon_expot {
+//      margin: -25% auto 0;
+//   }
+// }
 </style>

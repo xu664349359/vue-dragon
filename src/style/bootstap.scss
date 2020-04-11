@@ -1,0 +1,17 @@
+.btn{
+    transform: translateY(0);
+    transition:transform .15s ease-in-out, color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+}
+.btn:hover{
+    transform: translateY(-1px);
+}
+.btn.btn-dragon{
+    color: #fff;
+    border-color: #2dcea5;
+    background-color: #2dcea5;
+}
+.btn.btn-dragon:hover{
+    color: #fff;
+    border-color: #28b390;
+    background-color: #28b390;
+}

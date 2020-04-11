@@ -7,7 +7,8 @@ import '@/style/index.scss'
 /* 导入重置样式 */
 import '@/style/reset.css'
 // import vuetify from '@/plugins/vuetify' // path to vuetify export
-
+import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'bootstrap/dist/js/bootstrap.min'
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 
