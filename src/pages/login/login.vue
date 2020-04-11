@@ -4,6 +4,7 @@
       <div class="col-lg-4 col-md-6 ml-auto mr-auto boxContent">
         <div class="dragonCard-header">
           <img src="@/assets/card-primary.png" alt />
+          <h1>login</h1>
         </div>
         <div class="animate" ref="animate"></div>
         <v-form v-model="loginForm">
@@ -30,7 +31,7 @@
                 ></v-text-field>
               </v-col>
             </v-row>
-            <v-row>
+            <v-row style="padding:10px">
               <button type="button" class="btn btn-dragon" style="width:100%">login</button>
             </v-row>
           </v-container>
@@ -129,6 +130,14 @@ export default {
   height: 200px;
   border-radius: 5px;
   overflow: hidden;
+  h1{
+    position: absolute;
+    left: -10px;
+    color: #fff;
+    top:0;
+    font-size:100px ;
+    font-weight: bolder;
+  }
   img{
     position: absolute;
     left: -2px;
