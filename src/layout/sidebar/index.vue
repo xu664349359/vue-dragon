@@ -1,6 +1,5 @@
 <template>
   <div class="sidebar">
-
   </div>
 </template>
 
@@ -16,4 +15,5 @@ export default {
     height: 100%;
     background-color: blue;
 }
+
 </style>
